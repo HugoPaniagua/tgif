@@ -135,7 +135,6 @@ function tablesBottomL(label, property){
 tablesBottomL('tablaLeastL', 'leastLoyalH')
 tablesBottomL('tablaMostL', 'mostLoyalM')
 }
-}
 
 function tableGlance(label, party, prom){
     var glance = document.getElementById(label)
@@ -188,5 +187,3 @@ for(var i=0; i<data.results[0].members.length;i++){
     tabla.appendChild(trow)
  }
 }
-
-
